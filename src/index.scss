@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --font-family: 'Lato', sans-serif;
+  --second-font: 'Russo One';
+
+  --light-color: #fff;
+  --bg-color: #fbfbfb;
+  --accent-color: #e63a1c;
+  --second-color: #234eec;
+  --dark-color: #000;
+  --gray-color: rgba(86, 86, 86, 0.5);
+  --text-color: rgba(40, 39, 39, 0.8);
+  --overflow-color: rgba(4, 3, 3, 0.75);
+}
+body {
+  // background-image: url('/src//img/bg.jpg');
+  background-size: cover;
+}
+.main {
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.btn {
+  border: none;
+  padding: 12px 18px;
+  color: var(--light-color);
+  background: var(--accent-color);
+  text-align: center;
+  text-decoration: none;
+}
+.category-list {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}
+.category-item {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 14px;
+  border: 1px solid var(--gray-color);
+  border-radius: 12px;
+
+  &__img {
+    max-width: 270px;
+  }
+  &__title {
+    text-align: center;
+    flex-grow: 1;
+  }
+  &__desc {
+    font-size: 14px;
+  }
+}
+img,
+iframe {
+  width: 100%;
+}
+iframe {
+  width: 600px;
+  height: 350px;
+}
