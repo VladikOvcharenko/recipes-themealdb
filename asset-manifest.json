@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/recipes-themealdb/static/css/main.537097b4.css",
+    "main.js": "/recipes-themealdb/static/js/main.2b10db06.js",
+    "index.html": "/recipes-themealdb/index.html",
+    "main.537097b4.css.map": "/recipes-themealdb/static/css/main.537097b4.css.map",
+    "main.2b10db06.js.map": "/recipes-themealdb/static/js/main.2b10db06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.537097b4.css",
+    "static/js/main.2b10db06.js"
+  ]
+}
